@@ -24,6 +24,8 @@ MIT
 
 Felipe Muniz
 
+Visualizar a aplicação em seu navegador: https://25films.vercel.app/
+
 **Observações:**
 
 * **Dados:** Os dados dos filmes estão armazenados no arquivo `dados.js` em formato JSON. Você pode personalizar essa lista adicionando mais filmes ou alterando as informações existentes.
@@ -32,35 +34,3 @@ Felipe Muniz
     * Ordenação dos resultados por diferentes critérios (alfabeticamente, por ano, etc.)
     * Filtros por gênero, diretor, etc.
     * Integração com APIs de filmes para obter informações mais detalhadas sobre os filmes.
-
-**Estrutura do Projeto:**
-
-```
-projeto-filmes/
-├── index.html
-├── style.css
-├── app.js
-├── dados.js
-```
-
-* **index.html:** Arquivo principal da aplicação, contendo a estrutura HTML da página.
-* **style.css:** Arquivo CSS com todas as regras de estilo da aplicação.
-* **app.js:** Arquivo JavaScript com a lógica principal da aplicação, incluindo a função de pesquisa e a manipulação dos dados.
-* **dados.js:** Arquivo JavaScript contendo um array com os dados dos 25 filmes, incluindo título, descrição, pôster, link para mais detalhes e tags.
-
-**Como usar:**
-
-1. **Clonar o repositório:**
-   ```bash
-   git clone https://[seu-repositório]/top-25-filmes.git
-   ```
-2. **Abrir o arquivo `index.html` em um navegador:**
-   Você pode abrir o arquivo diretamente no seu navegador ou utilizar um servidor local para ter uma experiência mais próxima de uma aplicação web real.
-
-**Contribuições:**
-
-Sinta-se à vontade para contribuir com este projeto! Para isso, basta:
-
-1. Forkar o repositório.
-2. Criar um novo branch para suas alterações.
-3. Submeter um pull request.
