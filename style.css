@@ -75,12 +75,38 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
+    display: flex; /* Usa Flexbox para layout */
+    align-items: center; /* Alinha o centro verticalmente */
     background: #FFFFFF; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
+
+.item-resultado img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px; /* Espaçamento entre a imagem e o conteúdo */
+}
+
+.item-resultado .título {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.item-resultado .descricao {
+    flex: 1; /* Ocupa o espaço restante */
+  }
+  
+  .item-resultado .botao-details {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
 
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
